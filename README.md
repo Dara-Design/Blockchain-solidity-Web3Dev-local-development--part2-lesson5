@@ -17,3 +17,4 @@ RPC URL -connection to a blockchain node that somebody is running
 web.js -Ethereum JavaScript API(substitute for ether.js);
 ether.js -javascript library that allows us to interact with diffent blockchain;ether.js is the main tool that powers the hard hat environment
 
+we can define in .prettierrc file what format we wont for both soidity and javascript (install prettier in terminal)

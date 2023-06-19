@@ -4,7 +4,7 @@ const ethers = require('ethers');
 const fs = require('fs-extra');
 require("dotenv").config(); //
 // nmp install dotenv package ->require("dotenv").config(); -> we can access our envirionment variables from our .env file which we hide in .gitignore through process.env
-//we can add environmental variables into the terminal  - the safest option
+//we can add environmental variables into the terminal, and later delete history   - the safest option
 async function main(){
 const provider = new ethers.providers.JsonRpcProvider(process.env.RPC_URL);
 const wallet = new ethers.Wallet(process.env.PRIVATE_KEY,provider);
